@@ -7,7 +7,7 @@ public class EvenNumbers {
 
         int evenNumbers;
         Scanner sc = new Scanner(System.in);
-        System.out.println("How many numbers you want to verify?");
+        System.out.println("How many elements will have your array??");
 
         int n = sc.nextInt();
         int[] numbersList = new int[n];

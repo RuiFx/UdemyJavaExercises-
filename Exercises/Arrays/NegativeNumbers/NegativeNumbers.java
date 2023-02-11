@@ -7,7 +7,7 @@ public class NegativeNumbers {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the numbers to find the negatives\nMaximum of 10 numbers!\nNumber: ");
+        System.out.print("How many elements will have your array?\nMaximum of 10 elements");
 
         int n = sc.nextInt();
         int[] numbers = new int[n];

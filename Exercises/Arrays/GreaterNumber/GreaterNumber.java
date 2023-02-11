@@ -8,7 +8,7 @@ public class GreaterNumber {
         int position;
         double greatesNumber;
         Scanner sc = new Scanner(System.in);
-        System.out.println("How many numbers you want to verify?");
+        System.out.println("How many elements will have your array??");
         int n = sc.nextInt();
         double[] numbers = new double[n];
 

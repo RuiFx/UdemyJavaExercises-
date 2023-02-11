@@ -14,7 +14,7 @@ public class Main {
         Person person = new Person();
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("How many persons you want to register? ");
+        System.out.println("How many elements will have your array?");
 
         int n = sc.nextInt();
 

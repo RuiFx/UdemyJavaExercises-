@@ -6,7 +6,7 @@ public class SumVector {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("How many elements you want to enter?");
+        System.out.println("How many elements will have your array??");
 
         int n = sc.nextInt();
         double[] numbers = new double[n];

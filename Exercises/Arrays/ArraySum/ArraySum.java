@@ -8,7 +8,7 @@ public class ArraySum {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("How many elements will have the arrays?");
+        System.out.println("How many elements will have your arrays?");
 
         int n = sc.nextInt();
 
