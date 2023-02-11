@@ -2,7 +2,7 @@ package NegativeNumbers;
 
 import java.util.Scanner;
 
-public class DegativeNumbers {
+public class NegativeNumbers {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -11,9 +11,9 @@ public class DegativeNumbers {
 
         int n = sc.nextInt();
         int[] numbers = new int[n];
+        System.out.println("Enter the numbers:");
 
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Enter the numbers:");
             numbers[i] = sc.nextInt();
         }
 

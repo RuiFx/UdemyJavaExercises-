@@ -12,8 +12,9 @@ public class SumVector {
         double[] numbers = new double[n];
         double sum, avg;
 
+        System.out.println("Enter the numbers:");
+
         for (int i = 0; i < numbers.length; i++) {
-            System.out.print("Enter the number:");
             numbers[i] = sc.nextDouble();
         }
 
@@ -25,8 +26,8 @@ public class SumVector {
             sum += numbers[i];
         }
 
-        avg = sum / n;
-        
+        avg = sum / numbers.length;
+
         System.out.printf("The sum of all elements: %.1f%nThe average of elements: %.1f", sum, avg);
         sc.close();
     }
