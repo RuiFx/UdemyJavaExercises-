@@ -54,9 +54,10 @@ public class PersonalData {
                 femaleAverageHeight = sumFemaleHeight / numberWomen;
             }
         }
-        System.out.printf("The shorter have: %.2fmt%n", shorter);
-        System.out.printf("The taller have: %.2fmt%n", taller);
-        System.out.printf("Average female height: %.2fmt%n", femaleAverageHeight);
-        System.out.printf("This list have %d mans.", numberMans);
+        System.out.printf("The shorter have: %.2fmt%n" +
+                "The taller have: %.2fmt%n" +
+                "Average female height: %.2fmt%n" +
+                "This list have %d mans."
+                , shorter, taller, femaleAverageHeight, numberMans);
     }
 }
